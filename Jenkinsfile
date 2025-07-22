@@ -6,7 +6,7 @@ pipeline {
 
   }
   stages {
-    stage('') {
+    stage('build') {
       steps {
         sh '''apk add --no-cache bash curl jq gcc git go musl-dev
 go mod download
